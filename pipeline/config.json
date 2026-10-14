@@ -1,0 +1,20 @@
+{
+  "driver": "batch",
+  "model": "",
+  "base_url": "",
+  "api_key_env": "OPENAI_API_KEY",
+  "base_url_env": "OPENAI_BASE_URL",
+  "concurrency": 4,
+  "max_retries": 3,
+  "temperature": 0.2,
+  "batch_size": 20,
+  "glossary": "术语表.csv",
+  "style": [
+    "目标读者是中文技术从业者，语言自然、专业、克制，不要翻译腔。",
+    "保留原文的 Markdown 结构：标题层级、列表、表格、加粗一律照搬。",
+    "代码块、命令行、URL、文件路径、API 名、产品名（Claude Code、Codex、GitHub）不翻译，原样保留。",
+    "术语表命中的词必须使用表中给定的中文译法；标注 keep_en 的保留英文。",
+    "英文技术缩写（MCP、SAST、DAST、SRE、RCE）首次出现时给出中文全称，之后用缩写。",
+    "不添加原文没有的内容，不做解释性扩写，不删减原文信息。"
+  ]
+}

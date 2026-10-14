@@ -1,0 +1,74 @@
+term,zh,keep_en,notes
+Vibe Coding,氛围编程,no,首现写「氛围编程（Vibe Coding）」，之后统一用中文
+Agentic AI,智能体式 AI,no,指以自主智能体为核心的 AI 系统
+Agent,智能体,no,不译为「代理」
+Multi-Agent System,多智能体系统,no,
+Agent Harness,智能体运行框架,yes,文献中泛指包住模型的执行外壳；首次出现保留英文
+Scaffolding,脚手架,no,代码生成中的辅助结构
+Context Engineering,上下文工程,no,区别于提示工程
+Context Rot,上下文腐化,no,上下文变长后质量下降的现象
+Context Window,上下文窗口,no,
+Prompt Engineering,提示工程,no,
+System Prompt,系统提示词,no,
+Prompt Injection,提示注入,no,攻击手法
+Tool Use,工具调用,no,
+Tool Calling,工具调用,no,与 Tool Use 统一
+Function Calling,函数调用,no,
+MCP (Model Context Protocol),模型上下文协议,yes,首现「模型上下文协议（MCP）」，之后统一用 MCP
+MCP Server,MCP 服务端,yes,
+Spec,规格,yes,指写死的规格文档；保留英文但首次加注
+Spec-Driven Development,规格驱动开发,no,
+Source of Truth,唯一事实来源,no,
+Guardrails,护栏,no,
+Human-in-the-loop,人在环路,no,
+Autonomy,自主性,no,
+Escalation,上报升级,no,指 agent 把决策交回人类
+Sandbox,沙箱,no,
+Eval / Evaluation,评测,no,
+Golden Set,金标准集,no,
+Regression,回归,no,
+Hallucination,幻觉,no,
+Grounding,事实锚定,no,
+RAG,检索增强生成,yes,首现加注后统一用 RAG
+Token,词元,yes,计量单位保留 token
+Latency,延迟,no,
+Throughput,吞吐量,no,
+Trade-off,权衡,no,
+Refactor,重构,no,
+Diff,代码差异,yes,保留 diff
+Pull Request,拉取请求,yes,首现「拉取请求（PR）」，之后统一 PR
+Code Review,代码评审,no,
+Lint / Linter,静态检查,no,工具名保留英文，如 ESLint
+Unit Test,单元测试,no,
+Snapshot Test,快照测试,no,
+Test Coverage,测试覆盖率,no,
+CI/CD,持续集成／持续交付,yes,保留 CI/CD
+Static Analysis,静态分析,no,
+SAST,静态应用安全测试,yes,保留缩写
+DAST,动态应用安全测试,yes,保留缩写
+OWASP Top Ten,OWASP 十大安全风险,yes,
+Threat Model,威胁模型,no,
+Data Exfiltration,数据外泄,no,
+Least Privilege,最小权限,no,
+Secrets,密钥,no,复数语境指凭据集合
+Credential Rotation,凭据轮换,no,
+Vulnerability,漏洞,no,
+Exploit,漏洞利用,no,
+Patch,补丁,no,
+Remote Code Execution,远程代码执行,yes,首现加注后可用 RCE
+SRE,站点可靠性工程,yes,保留缩写
+On-call,值班,no,
+Incident,事故,no,
+Postmortem,事后复盘,no,
+Runbook,运维手册,no,
+Observability,可观测性,no,
+Telemetry,遥测,no,
+Rollback,回滚,no,
+Idempotent,幂等,no,
+Orchestration,编排,no,
+Workflow,工作流,no,
+Pipeline,流水线,no,
+Repository,仓库,no,
+Commit,提交,no,作为 Git 概念可保留 commit
+Branch,分支,no,
+Merge Conflict,合并冲突,no,
